@@ -1,6 +1,6 @@
 # Cervical Cancer Prevention Agent-Based Model
 
-This model simulates the impact of several interventions on cervical cancer outcomes in sub-Saharan Africa. The primary outcomes are cervical cancer incidence, mortality rates, and intervention costs. A secondary outcome (for some countries) is HPV prevalence. The interventions of interest include HPV vaccination, cervical cancer screening, and HIV treatment.
+This model simulates the impact of several interventions on cervical cancer outcomes. The primary outcomes are cervical cancer incidence, mortality rates, and intervention costs. A secondary outcome (for some countries) is HPV prevalence. The interventions of interest include HPV vaccination, cervical cancer screening, and HIV treatment.
 
 The simulation is implemented using python and primarily `numpy` based state classes. 
 
