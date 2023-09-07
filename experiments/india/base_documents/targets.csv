@@ -1,0 +1,63 @@
+Target_Row,Category,Type,Weight,Age_Group,Value,Source
+0,HPV - Prev - LR,Prevalence,0,<25,5.5,experiments/parameters.xlsx
+1,HPV - Prev - LR,Prevalence,0,25_30,5.5,experiments/parameters.xlsx
+2,HPV - Prev - LR,Prevalence,0,30_35,5.2,experiments/parameters.xlsx
+3,HPV - Prev - LR,Prevalence,0,35_40,7.5,experiments/parameters.xlsx
+4,HPV - Prev - LR,Prevalence,0,40_45,4,experiments/parameters.xlsx
+5,HPV - Prev - LR,Prevalence,0,45_50,5.1,experiments/parameters.xlsx
+6,HPV - Prev - LR,Prevalence,0,50_60,5.1,experiments/parameters.xlsx
+7,HPV - Prev - LR,Prevalence,0,60+,5.1,experiments/parameters.xlsx
+8,HPV - Prev - HR,Prevalence,1,<25,6.53,experiments/parameters.xlsx
+9,HPV - Prev - HR,Prevalence,1,25_30,5.6,experiments/parameters.xlsx
+10,HPV - Prev - HR,Prevalence,1,30_35,7.04,experiments/parameters.xlsx
+11,HPV - Prev - HR,Prevalence,1,35_40,5.39,experiments/parameters.xlsx
+12,HPV - Prev - HR,Prevalence,1,40_45,8.46,experiments/parameters.xlsx
+13,HPV - Prev - HR,Prevalence,1,45_50,5.78,experiments/parameters.xlsx
+14,HPV - Prev - HR,Prevalence,1,50_60,8.15,experiments/parameters.xlsx
+15,HPV - Prev - HR,Prevalence,1,60+,8.15,experiments/parameters.xlsx
+16,HPV - Prev - 16,Prevalence,1,<25,3.78,experiments/parameters.xlsx
+17,HPV - Prev - 16,Prevalence,1,25_30,3.49,experiments/parameters.xlsx
+18,HPV - Prev - 16,Prevalence,1,30_35,3.85,experiments/parameters.xlsx
+19,HPV - Prev - 16,Prevalence,1,35_40,4.05,experiments/parameters.xlsx
+20,HPV - Prev - 16,Prevalence,1,40_45,3.92,experiments/parameters.xlsx
+21,HPV - Prev - 16,Prevalence,1,45_50,3.42,experiments/parameters.xlsx
+22,HPV - Prev - 16,Prevalence,1,50_60,4.16,experiments/parameters.xlsx
+23,HPV - Prev - 16,Prevalence,1,60+,4.16,experiments/parameters.xlsx
+24,HPV - Prev - 18,Prevalence,1,<25,0.99,experiments/parameters.xlsx
+25,HPV - Prev - 18,Prevalence,1,25_30,0.91,experiments/parameters.xlsx
+26,HPV - Prev - 18,Prevalence,1,30_35,1.01,experiments/parameters.xlsx
+27,HPV - Prev - 18,Prevalence,1,35_40,1.06,experiments/parameters.xlsx
+28,HPV - Prev - 18,Prevalence,1,40_45,1.03,experiments/parameters.xlsx
+29,HPV - Prev - 18,Prevalence,1,45_50,0.9,experiments/parameters.xlsx
+30,HPV - Prev - 18,Prevalence,1,50_60,1.09,experiments/parameters.xlsx
+31,HPV - Prev - 18,Prevalence,1,60+,1.09,india/india input data april 22 2021
+32,CIN23 - Prev - HR,Prevalence,1,30_35,0.27,india/india input data april 22 2021
+33,CIN23 - Prev - HR,Prevalence,1,35_40,0.276,india/india input data april 22 2021
+34,CIN23 - Prev - HR,Prevalence,1,40_45,0.345,india/india input data april 22 2021
+35,CIN23 - Prev - HR,Prevalence,1,45_50,0.315,india/india input data april 22 2021
+36,CIN23 - Prev - HR,Prevalence,1,50_55,0.258,india/india input data april 22 2021
+37,CIN23 - Prev - HR,Prevalence,1,55_60,0.294,india/india input data april 22 2021
+38,CIN23 - Prev - HR,Prevalence,1,60+,0.369,india/india input data april 22 2021
+39,CIN23 - Prev - 16,Prevalence,1,30_35,0.585,india/india input data april 22 2021
+40,CIN23 - Prev - 16,Prevalence,1,35_40,0.598,india/india input data april 22 2021
+41,CIN23 - Prev - 16,Prevalence,1,40_45,0.7475,india/india input data april 22 2021
+42,CIN23 - Prev - 16,Prevalence,1,45_50,0.6825,india/india input data april 22 2021
+43,CIN23 - Prev - 16,Prevalence,1,50_55,0.559,india/india input data april 22 2021
+44,CIN23 - Prev - 16,Prevalence,1,55_60,0.637,india/india input data april 22 2021
+45,CIN23 - Prev - 16,Prevalence,1,60+,0.7995,india/india input data april 22 2021
+46,CIN23 - Prev - 18,Prevalence,1,30_35,0.045,india/india input data april 22 2021
+47,CIN23 - Prev - 18,Prevalence,1,35_40,0.046,india/india input data april 22 2021
+48,CIN23 - Prev - 18,Prevalence,1,40_45,0.0575,india/india input data april 22 2021
+49,CIN23 - Prev - 18,Prevalence,1,45_50,0.0525,india/india input data april 22 2021
+50,CIN23 - Prev - 18,Prevalence,1,50_55,0.043,india/india input data april 22 2021
+51,CIN23 - Prev - 18,Prevalence,1,55_60,0.049,india/india input data april 22 2021
+52,CIN23 - Prev - 18,Prevalence,1,60+,0.0615,india/india input data april 22 2021
+53,Cancer Incidence,Incidence,5,20_30,2,experiments/parameters.xlsx
+54,Cancer Incidence,Incidence,5,30_40,15,experiments/parameters.xlsx
+55,Cancer Incidence,Incidence,5,40_50,45,experiments/parameters.xlsx
+56,Cancer Incidence,Incidence,5,50_60,65,experiments/parameters.xlsx
+57,Cancer Incidence,Incidence,5,60_70,60,experiments/parameters.xlsx
+58,Cancer Incidence,Incidence,5,70+,36,experiments/parameters.xlsx
+59,Cause of Cancer - 16,Percentage,5,All,0.547,experiments/parameters.xlsx
+60,Cause of Cancer - 18,Percentage,5,All,0.104,experiments/parameters.xlsx
+61,Cause of Cancer - HR,Percentage,5,All,0.349,experiments/parameters.xlsx

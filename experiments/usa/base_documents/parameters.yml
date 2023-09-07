@@ -1,0 +1,5 @@
+num_agents: 50000
+num_steps: 1092
+steps_per_year: 12
+initial_age: 9
+seed: 1111

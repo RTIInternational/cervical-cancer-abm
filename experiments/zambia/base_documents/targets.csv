@@ -1,0 +1,109 @@
+Target_Row,Category,Type,Weight,Age_Group,Value,Source
+0,HPV - Prev - LR,Prevalence,0,<25,24.4,experiments/parameters.xlsx
+1,HPV - Prev - LR,Prevalence,0,25_30,11.9,experiments/parameters.xlsx
+2,HPV - Prev - LR,Prevalence,0,30_35,11.9,experiments/parameters.xlsx
+3,HPV - Prev - LR,Prevalence,0,35_40,7.9,experiments/parameters.xlsx
+4,HPV - Prev - LR,Prevalence,0,40_45,7.9,experiments/parameters.xlsx
+5,HPV - Prev - LR,Prevalence,0,45_50,15.9,experiments/parameters.xlsx
+6,HPV - Prev - LR,Prevalence,0,50_55,15.9,experiments/parameters.xlsx
+7,HPV - Prev - LR,Prevalence,0,55+,15.9,experiments/parameters.xlsx
+8,HPV - Prev - LR -HIV,Prevalence,0,<25,63.6,experiments/parameters.xlsx
+9,HPV - Prev - LR -HIV,Prevalence,0,25_30,48.1,experiments/parameters.xlsx
+10,HPV - Prev - LR -HIV,Prevalence,0,30_35,48.1,experiments/parameters.xlsx
+11,HPV - Prev - LR -HIV,Prevalence,0,35_40,43.7,experiments/parameters.xlsx
+12,HPV - Prev - LR -HIV,Prevalence,0,40_45,43.7,experiments/parameters.xlsx
+13,HPV - Prev - LR -HIV,Prevalence,0,45_50,51.5,experiments/parameters.xlsx
+14,HPV - Prev - LR -HIV,Prevalence,0,50_55,51.5,experiments/parameters.xlsx
+15,HPV - Prev - LR -HIV,Prevalence,0,55+,51.5,experiments/parameters.xlsx
+16,HPV - Prev - HR,Prevalence,1,<25,22.1,experiments/parameters.xlsx
+17,HPV - Prev - HR,Prevalence,1,25_30,19.5,experiments/parameters.xlsx
+18,HPV - Prev - HR,Prevalence,1,30_35,18.25,experiments/parameters.xlsx
+19,HPV - Prev - HR,Prevalence,1,35_40,5.2,experiments/parameters.xlsx
+20,HPV - Prev - HR,Prevalence,1,40_45,6.65,experiments/parameters.xlsx
+21,HPV - Prev - HR,Prevalence,1,45_50,3.6,experiments/parameters.xlsx
+22,HPV - Prev - HR,Prevalence,1,50_55,4.55,experiments/parameters.xlsx
+23,HPV - Prev - HR,Prevalence,1,55+,3.6,experiments/parameters.xlsx
+24,HPV - Prev - HR - HIV,Prevalence,1,<25,48.7,experiments/parameters.xlsx
+25,HPV - Prev - HR - HIV,Prevalence,1,25_30,40.9,experiments/parameters.xlsx
+26,HPV - Prev - HR - HIV,Prevalence,1,30_35,38.4,experiments/parameters.xlsx
+27,HPV - Prev - HR - HIV,Prevalence,1,35_40,43.4,experiments/parameters.xlsx
+28,HPV - Prev - HR - HIV,Prevalence,1,40_45,46.3,experiments/parameters.xlsx
+29,HPV - Prev - HR - HIV,Prevalence,1,45_50,26.8,experiments/parameters.xlsx
+30,HPV - Prev - HR - HIV,Prevalence,1,50_55,28.7,experiments/parameters.xlsx
+31,HPV - Prev - HR - HIV,Prevalence,1,55+,26.8,experiments/parameters.xlsx
+32,HPV - Prev - 16,Prevalence,1,<25,17,experiments/parameters.xlsx
+33,HPV - Prev - 16,Prevalence,1,25_30,15.1,experiments/parameters.xlsx
+34,HPV - Prev - 16,Prevalence,1,30_35,18,experiments/parameters.xlsx
+35,HPV - Prev - 16,Prevalence,1,35_40,14,experiments/parameters.xlsx
+36,HPV - Prev - 16,Prevalence,1,40_45,14.1,experiments/parameters.xlsx
+37,HPV - Prev - 16,Prevalence,1,45_50,10.6,experiments/parameters.xlsx
+38,HPV - Prev - 16,Prevalence,1,50_55,10.3,experiments/parameters.xlsx
+39,HPV - Prev - 16,Prevalence,1,55+,8.4,experiments/parameters.xlsx
+40,HPV - Prev - 18,Prevalence,1,<25,8,experiments/parameters.xlsx
+41,HPV - Prev - 18,Prevalence,1,25_30,9.7,experiments/parameters.xlsx
+42,HPV - Prev - 18,Prevalence,1,30_35,9.9,experiments/parameters.xlsx
+43,HPV - Prev - 18,Prevalence,1,35_40,8.4,experiments/parameters.xlsx
+44,HPV - Prev - 18,Prevalence,1,40_45,6.3,experiments/parameters.xlsx
+45,HPV - Prev - 18,Prevalence,1,45_50,6.7,experiments/parameters.xlsx
+46,HPV - Prev - 18,Prevalence,1,50_55,5.5,experiments/parameters.xlsx
+47,HPV - Prev - 18,Prevalence,1,55+,8.4,experiments/parameters.xlsx
+48,CIN23 - Prev - HR,Prevalence,1,<25,1.55456,experiments/parameters.xlsx
+49,CIN23 - Prev - HR,Prevalence,1,25_30,1.48516,experiments/parameters.xlsx
+50,CIN23 - Prev - HR,Prevalence,1,30_35,2.4388,experiments/parameters.xlsx
+51,CIN23 - Prev - HR,Prevalence,1,35_40,1.8157,experiments/parameters.xlsx
+52,CIN23 - Prev - HR,Prevalence,1,40_45,1.2255,experiments/parameters.xlsx
+53,CIN23 - Prev - HR,Prevalence,1,45_50,0.7955,experiments/parameters.xlsx
+54,CIN23 - Prev - HR,Prevalence,1,50_55,0.9202,experiments/parameters.xlsx
+55,CIN23 - Prev - HR,Prevalence,1,55+,0.6149,experiments/parameters.xlsx
+56,CIN23 - Prev - HR - HIV,Prevalence,1,<25,6.23139,experiments/parameters.xlsx
+57,CIN23 - Prev - HR - HIV,Prevalence,1,25_30,9.75315,experiments/parameters.xlsx
+58,CIN23 - Prev - HR - HIV,Prevalence,1,30_35,9.83935,experiments/parameters.xlsx
+59,CIN23 - Prev - HR - HIV,Prevalence,1,35_40,5.26261,experiments/parameters.xlsx
+60,CIN23 - Prev - HR - HIV,Prevalence,1,40_45,1.6585,experiments/parameters.xlsx
+61,CIN23 - Prev - HR - HIV,Prevalence,1,45_50,2.4583,experiments/parameters.xlsx
+62,CIN23 - Prev - HR - HIV,Prevalence,1,50_55,2.2134,experiments/parameters.xlsx
+63,CIN23 - Prev - HR - HIV,Prevalence,1,55+,2.4335,experiments/parameters.xlsx
+64,CIN23 - Prev - 16,Prevalence,1,<25,0.46144,experiments/parameters.xlsx
+65,CIN23 - Prev - 16,Prevalence,1,25_30,0.44084,experiments/parameters.xlsx
+66,CIN23 - Prev - 16,Prevalence,1,30_35,0.8736,experiments/parameters.xlsx
+67,CIN23 - Prev - 16,Prevalence,1,35_40,0.6504,experiments/parameters.xlsx
+68,CIN23 - Prev - 16,Prevalence,1,40_45,1.311,experiments/parameters.xlsx
+69,CIN23 - Prev - 16,Prevalence,1,45_50,0.851,experiments/parameters.xlsx
+70,CIN23 - Prev - 16,Prevalence,1,50_55,0.9844,experiments/parameters.xlsx
+71,CIN23 - Prev - 16,Prevalence,1,55+,0.6578,experiments/parameters.xlsx
+72,CIN23 - Prev - 16 - HIV,Prevalence,1,<25,1.32181,experiments/parameters.xlsx
+73,CIN23 - Prev - 16 - HIV,Prevalence,1,25_30,2.06885,experiments/parameters.xlsx
+74,CIN23 - Prev - 16 - HIV,Prevalence,1,30_35,3.991,experiments/parameters.xlsx
+75,CIN23 - Prev - 16 - HIV,Prevalence,1,35_40,2.1346,experiments/parameters.xlsx
+76,CIN23 - Prev - 16 - HIV,Prevalence,1,40_45,2.9425,experiments/parameters.xlsx
+77,CIN23 - Prev - 16 - HIV,Prevalence,1,45_50,4.3615,experiments/parameters.xlsx
+78,CIN23 - Prev - 16 - HIV,Prevalence,1,50_55,3.927,experiments/parameters.xlsx
+79,CIN23 - Prev - 16 - HIV,Prevalence,1,55+,4.3175,experiments/parameters.xlsx
+80,CIN23 - Prev - 18,Prevalence,1,<25,0.224,experiments/parameters.xlsx
+81,CIN23 - Prev - 18,Prevalence,1,25_30,0.214,experiments/parameters.xlsx
+82,CIN23 - Prev - 18,Prevalence,1,30_35,0.3276,experiments/parameters.xlsx
+83,CIN23 - Prev - 18,Prevalence,1,35_40,0.2439,experiments/parameters.xlsx
+84,CIN23 - Prev - 18,Prevalence,1,40_45,0.3135,experiments/parameters.xlsx
+85,CIN23 - Prev - 18,Prevalence,1,45_50,0.2035,experiments/parameters.xlsx
+86,CIN23 - Prev - 18,Prevalence,1,50_55,0.2354,experiments/parameters.xlsx
+87,CIN23 - Prev - 18,Prevalence,1,55+,0.1573,experiments/parameters.xlsx
+88,CIN23 - Prev - 18 - HIV,Prevalence,1,<25,0.6568,experiments/parameters.xlsx
+89,CIN23 - Prev - 18 - HIV,Prevalence,1,25_30,1.028,experiments/parameters.xlsx
+90,CIN23 - Prev - 18 - HIV,Prevalence,1,30_35,1.51965,experiments/parameters.xlsx
+91,CIN23 - Prev - 18 - HIV,Prevalence,1,35_40,0.81279,experiments/parameters.xlsx
+92,CIN23 - Prev - 18 - HIV,Prevalence,1,40_45,0.749,experiments/parameters.xlsx
+93,CIN23 - Prev - 18 - HIV,Prevalence,1,45_50,1.1102,experiments/parameters.xlsx
+94,CIN23 - Prev - 18 - HIV,Prevalence,1,50_55,0.9996,experiments/parameters.xlsx
+95,CIN23 - Prev - 18 - HIV,Prevalence,1,55+,1.099,experiments/parameters.xlsx
+96,Cancer Incidence,Incidence,5,15_30,10,experiments/parameters.xlsx
+97,Cancer Incidence,Incidence,5,30_35,31.3,experiments/parameters.xlsx
+98,Cancer Incidence,Incidence,5,35_40,70.85,experiments/parameters.xlsx
+99,Cancer Incidence,Incidence,5,40_45,110.4,experiments/parameters.xlsx
+100,Cancer Incidence,Incidence,5,45_50,127,experiments/parameters.xlsx
+101,Cancer Incidence,Incidence,5,50_55,139,experiments/parameters.xlsx
+102,Cancer Incidence,Incidence,5,55_60,147.8,experiments/parameters.xlsx
+103,Cause of Cancer - 16,Percentage,5,All,0.4726,McDonald Paper
+104,Cause of Cancer - 18,Percentage,5,All,0.2264,McDonald Paper
+105,Cause of Cancer - HR,Percentage,5,All,0.3010,McDonald Paper
+106,HIV Prevalence,Prevalence,1,15_25,4.5,Excel - HIV Prevalence Women
+107,HIV Prevalence,Prevalence,1,15_50,14.5,Excel - HIV Prevalence Women

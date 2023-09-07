@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  cervical_cancer:
+    build: ./docker
+    volumes:
+      - ./:/code
+    working_dir: /code

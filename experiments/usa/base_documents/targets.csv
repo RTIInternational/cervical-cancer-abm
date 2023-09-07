@@ -1,0 +1,44 @@
+Target_Row,Category,Type,Weight,Age_Group,Value,Source
+1,HPV - Prev - LR,Prevalence,0,20_30,10.4,experiments/parameters.xlsx
+2,HPV - Prev - LR,Prevalence,0,30_40,14.3,experiments/parameters.xlsx
+3,HPV - Prev - LR,Prevalence,0,40_50,19.1,experiments/parameters.xlsx
+4,HPV - Prev - LR,Prevalence,0,50_60,17.8,experiments/parameters.xlsx
+6,HPV - Prev - HR,Prevalence,1,20_30,28.3,experiments/parameters.xlsx
+7,HPV - Prev - HR,Prevalence,1,30_40,23.2,experiments/parameters.xlsx
+8,HPV - Prev - HR,Prevalence,1,40_50,19.9,experiments/parameters.xlsx
+9,HPV - Prev - HR,Prevalence,1,50_60,18.1,experiments/parameters.xlsx
+11,HPV - Prev - 16,Prevalence,1,20_30,6,experiments/parameters.xlsx
+12,HPV - Prev - 16,Prevalence,1,30_40,5,experiments/parameters.xlsx
+13,HPV - Prev - 16,Prevalence,1,40_50,2.5,experiments/parameters.xlsx
+14,HPV - Prev - 16,Prevalence,1,50_60,2.2,experiments/parameters.xlsx
+16,HPV - Prev - 18,Prevalence,1,20_30,2.1,experiments/parameters.xlsx
+17,HPV - Prev - 18,Prevalence,1,30_40,1.7,experiments/parameters.xlsx
+18,HPV - Prev - 18,Prevalence,1,40_50,0.9,experiments/parameters.xlsx
+19,HPV - Prev - 18,Prevalence,1,50_60,0.7,experiments/parameters.xlsx
+21,CIN23 - Prev - HR,Prevalence,1,20_25,0.402748414,experiments/parameters.xlsx
+22,CIN23 - Prev - HR,Prevalence,1,25_30,0.593742508,experiments/parameters.xlsx
+23,CIN23 - Prev - HR,Prevalence,1,30_40,0.485789325,experiments/parameters.xlsx
+24,CIN23 - Prev - HR,Prevalence,1,40_50,0.298947277,experiments/parameters.xlsx
+25,CIN23 - Prev - HR,Prevalence,1,50_60,0.174385911,experiments/parameters.xlsx
+26,CIN23 - Prev - HR,Prevalence,1,60_70,0.18061398,experiments/parameters.xlsx
+28,CIN23 - Prev - 16,Prevalence,1,20_25,0.364693446,experiments/parameters.xlsx
+29,CIN23 - Prev - 16,Prevalence,1,25_30,0.537640854,experiments/parameters.xlsx
+30,CIN23 - Prev - 16,Prevalence,1,30_40,0.439887971,experiments/parameters.xlsx
+31,CIN23 - Prev - 16,Prevalence,1,40_50,0.27070029,experiments/parameters.xlsx
+32,CIN23 - Prev - 16,Prevalence,1,50_60,0.157908502,experiments/parameters.xlsx
+33,CIN23 - Prev - 16,Prevalence,1,60_70,0.163548092,experiments/parameters.xlsx
+35,CIN23 - Prev - 18,Prevalence,1,20_25,0.05179704,experiments/parameters.xlsx
+36,CIN23 - Prev - 18,Prevalence,1,25_30,0.076360585,experiments/parameters.xlsx
+37,CIN23 - Prev - 18,Prevalence,1,30_40,0.062476842,experiments/parameters.xlsx
+38,CIN23 - Prev - 18,Prevalence,1,40_50,0.038447288,experiments/parameters.xlsx
+39,CIN23 - Prev - 18,Prevalence,1,50_60,0.022427584,experiments/parameters.xlsx
+40,CIN23 - Prev - 18,Prevalence,1,60_70,0.02322857,experiments/parameters.xlsx
+41,Cancer Incidence,Incidence,5,20_30,2.9,experiments/parameters.xlsx
+42,Cancer Incidence,Incidence,5,30_40,19,experiments/parameters.xlsx
+43,Cancer Incidence,Incidence,5,40_50,31.6,experiments/parameters.xlsx
+44,Cancer Incidence,Incidence,5,50_60,37,experiments/parameters.xlsx
+45,Cancer Incidence,Incidence,5,60_70,41.5,experiments/parameters.xlsx
+46,Cancer Incidence,Incidence,5,70+,43.3,experiments/parameters.xlsx
+47,Cause of Cancer - 16,Percentage,5,All,0.585,experiments/parameters.xlsx
+48,Cause of Cancer - 18,Percentage,5,All,0.144,experiments/parameters.xlsx
+49,Cause of Cancer - HR,Percentage,5,All,0.271,experiments/parameters.xlsx

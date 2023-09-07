@@ -1,0 +1,4 @@
+num_agents: 30000
+num_steps: 1092
+steps_per_year: 12
+initial_age: 9

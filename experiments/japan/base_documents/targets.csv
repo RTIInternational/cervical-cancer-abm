@@ -1,0 +1,66 @@
+Target_Row,Category,Type,Weight,Age_Group,Value,Source
+0,HPV - Prev - LR,Prevalence,0,16_20,3.9,Comparison of Params from Sujha's Email
+1,HPV - Prev - LR,Prevalence,0,20_25,8,Comparison of Params from Sujha's Email
+2,HPV - Prev - LR,Prevalence,0,25_30,5,Comparison of Params from Sujha's Email
+3,HPV - Prev - LR,Prevalence,0,30_35,7,Comparison of Params from Sujha's Email
+4,HPV - Prev - LR,Prevalence,0,35_40,6,Comparison of Params from Sujha's Email
+5,HPV - Prev - LR,Prevalence,0,40_45,4,Comparison of Params from Sujha's Email
+6,HPV - Prev - LR,Prevalence,0,45_50,2,Comparison of Params from Sujha's Email
+7,HPV - Prev - LR,Prevalence,0,50_55,9,Comparison of Params from Sujha's Email
+8,HPV - Prev - LR,Prevalence,0,55_60,9,Comparison of Params from Sujha's Email
+9,HPV - Prev - LR,Prevalence,0,60_65,9,Comparison of Params from Sujha's Email
+10,HPV - Prev - LR,Prevalence,0,65_70,10,Comparison of Params from Sujha's Email
+11,HPV - Prev - HR,Prevalence,1,16_20,20.92,Comparison of Params from Sujha's Email
+12,HPV - Prev - HR,Prevalence,1,20_25,17,Comparison of Params from Sujha's Email
+13,HPV - Prev - HR,Prevalence,1,25_30,13,Comparison of Params from Sujha's Email
+14,HPV - Prev - HR,Prevalence,1,30_35,12,Comparison of Params from Sujha's Email
+15,HPV - Prev - HR,Prevalence,1,35_40,13,Comparison of Params from Sujha's Email
+16,HPV - Prev - HR,Prevalence,1,40_45,4,Comparison of Params from Sujha's Email
+17,HPV - Prev - HR,Prevalence,1,45_50,8,Comparison of Params from Sujha's Email
+18,HPV - Prev - HR,Prevalence,1,50_55,4,Comparison of Params from Sujha's Email
+19,HPV - Prev - HR,Prevalence,1,55_60,6,Comparison of Params from Sujha's Email
+20,HPV - Prev - HR,Prevalence,1,60_65,8,Comparison of Params from Sujha's Email
+21,HPV - Prev - HR,Prevalence,1,65_70,8,Comparison of Params from Sujha's Email
+22,HPV - Prev - 16,Prevalence,1,20_25,10.15,Comparison of Params from Sujha's Email
+23,HPV - Prev - 16,Prevalence,1,20_24,6.4,Comparison of Params from Sujha's Email
+24,HPV - Prev - 16,Prevalence,1,25_30,5.39,Comparison of Params from Sujha's Email
+25,HPV - Prev - 16,Prevalence,1,30_35,3.89,Comparison of Params from Sujha's Email
+26,HPV - Prev - 16,Prevalence,1,35_40,1.6,Comparison of Params from Sujha's Email
+27,HPV - Prev - 16,Prevalence,1,40_45,2.5,Comparison of Params from Sujha's Email
+28,HPV - Prev - 16,Prevalence,1,45_50,2.4,Comparison of Params from Sujha's Email
+29,HPV - Prev - 16,Prevalence,1,50_55,2.4,Comparison of Params from Sujha's Email
+30,HPV - Prev - 16,Prevalence,1,55_60,1.5,Comparison of Params from Sujha's Email
+31,HPV - Prev - 16,Prevalence,1,60_65,2.4,Comparison of Params from Sujha's Email
+32,HPV - Prev - 16,Prevalence,1,65_70,5,Comparison of Params from Sujha's Email
+33,HPV - Prev - 18,Prevalence,1,16_20,0.923,Comparison of Params from Sujha's Email
+34,HPV - Prev - 18,Prevalence,1,20_25,1.6,Comparison of Params from Sujha's Email
+35,HPV - Prev - 18,Prevalence,1,25_30,1.61,Comparison of Params from Sujha's Email
+36,HPV - Prev - 18,Prevalence,1,30_35,1.11,Comparison of Params from Sujha's Email
+37,HPV - Prev - 18,Prevalence,1,35_40,0.4,Comparison of Params from Sujha's Email
+38,HPV - Prev - 18,Prevalence,1,40_45,0.5,Comparison of Params from Sujha's Email
+39,HPV - Prev - 18,Prevalence,1,45_50,0.6,Comparison of Params from Sujha's Email
+40,HPV - Prev - 18,Prevalence,1,50_55,0.6,Comparison of Params from Sujha's Email
+41,HPV - Prev - 18,Prevalence,1,55_60,0.5,Comparison of Params from Sujha's Email
+42,HPV - Prev - 18,Prevalence,1,60_65,0.6,Comparison of Params from Sujha's Email
+43,HPV - Prev - 18,Prevalence,1,65_70,1,Comparison of Params from Sujha's Email
+44,CIN23 - Prev - HR,Prevalence,1,20_30,0.078,Onuki (Table 2A) From Catherine's Email
+45,CIN23 - Prev - HR,Prevalence,1,30_40,0.153,Onuki (Table 2A) From Catherine's Email
+46,CIN23 - Prev - HR,Prevalence,1,40_50,0.291,Onuki (Table 2A) From Catherine's Email
+47,CIN23 - Prev - HR,Prevalence,1,50+,0.15,Onuki (Table 2A) From Catherine's Email
+48,CIN23 - Prev - 16,Prevalence,1,20_30,0.062,Onuki (Table 2A) From Catherine's Email
+49,CIN23 - Prev - 16,Prevalence,1,30_40,0.058,Onuki (Table 2A) From Catherine's Email
+50,CIN23 - Prev - 16,Prevalence,1,40_50,0.073,Onuki (Table 2A) From Catherine's Email
+51,CIN23 - Prev - 16,Prevalence,1,50+,0.031,Onuki (Table 2A) From Catherine's Email
+52,CIN23 - Prev - 18,Prevalence,1,20_30,0.028,Onuki (Table 2A) From Catherine's Email
+53,CIN23 - Prev - 18,Prevalence,1,30_40,0.025,Onuki (Table 2A) From Catherine's Email
+54,CIN23 - Prev - 18,Prevalence,1,40_50,0.026,Onuki (Table 2A) From Catherine's Email
+55,CIN23 - Prev - 18,Prevalence,1,50+,0.025,Onuki (Table 2A) From Catherine's Email
+56,Cancer Incidence,Incidence,5,15_40,4.6,Cervical Cancer Incidence 1975-2015 (1975-1980 estimate)
+57,Cancer Incidence,Incidence,5,40_45,23.3,Cervical Cancer Incidence 1975-2015 (1975-1980 estimate)
+58,Cancer Incidence,Incidence,5,45_50,31.5,Cervical Cancer Incidence 1975-2015 (1975-1980 estimate)
+59,Cancer Incidence,Incidence,5,50_55,40,Cervical Cancer Incidence 1975-2015 (1975-1980 estimate)
+60,Cancer Incidence,Incidence,5,55_60,42.9,Cervical Cancer Incidence 1975-2015 (1975-1980 estimate)
+61,Cancer Incidence,Incidence,5,60_80,53.2,Cervical Cancer Incidence 1975-2015 (1975-1980 estimate)
+62,Cause of Cancer - 16,Percentage,2.5,All,0.443,Castellsague PATRICIA 2014 natual immunity HPV.pdf Email
+63,Cause of Cancer - 18,Percentage,2.5,All,0.229,Castellsague PATRICIA 2014 natual immunity HPV.pdf Email
+64,Cause of Cancer - HR,Percentage,2.5,All,0.328,Castellsague PATRICIA 2014 natual immunity HPV.pdf Email
