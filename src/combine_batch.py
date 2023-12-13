@@ -38,8 +38,13 @@ def main(batch: str, country: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create all input files for a batch of scenarios")
-    parser.add_argument("batch", type=str, help="name of the batch directory ")
+    parser.add_argument("batch", type=str, help="name of the batch directory")
+    parser.add_argument("--country", type=str, default="all", help="The directory containing the experiment")
     args = parser.parse_args()
 
-    for country in ["zambia", "japan", "usa", "india"]:
-        main(args.batch, country)
+    if args.country == "all":
+        run_list = []
+        for country in ["zambia", "japan", "usa", "india"]:
+            main(batch=args.batch, country=country)
+    else:
+        main(batch=args.batch, country=args.country)
