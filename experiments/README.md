@@ -8,14 +8,14 @@ Before you begin, follow the main [README](../../README.md) to prepare a virtual
 
 ```
 source python_env/bin/activate
-export COUNTRY=<country_name>
-python src/prep.py  experiments/$COUNTRY/
+export COUNTRY=<country>
+python src/prep.py <country>
 ```
 
 If you run the following:
 
 ```
-python src/check_targets.py experiments/$COUNTRY
+python src/check_targets.py <country>
 ```
 
 And the `experiments/$COUNTRY/base_documents/curve_multipliers.csv` file has not been prepared, you will run the experiment as is using the base transition matrices. This assumes that `curve_multipliers.csv` has `1` values in the `Current` column for all rows. If you compare the model output to a country's targets, you will see major issues. 
@@ -32,20 +32,20 @@ We need to use multipliers to calibrate to these targets. There are two types:
 
 1. Open the curve multipleirs:
 
-	- ```open experiments/$COUNTRY/base_documents/curve_multipliers.csv```
+	- ```open experiments/<country>/base_documents/curve_multipliers.csv```
 	- set all `Current` values to 1 and save.
 
 2. Check the targets: 
 
-	- ```python src/check_targets.py experiments/$COUNTRY```
+	- ```python src/check_targets.py experiments/<country>```
 	
 3. Update triangle distributions (manual process)
 
-	- `open experiments/$COUNTRY/scenario_base/iteration_0/analysis_values.csv`
-	- Copy/paste the `0` column into this file: `open experiments/$COUNTRY/base_documents/check_targets.xlsx` in the `Run Value` column
+	- `open experiments/<country>/scenario_base/iteration_0/analysis_values.csv`
+	- Copy/paste the `0` column into this file: `open experiments/<country>/base_documents/check_targets.xlsx` in the `Run Value` column
 	- Review the target for the first age group of each group (they are marked in red)
 	- If the first age group is 20% off or more (for really small targets, allow 50% off), you need a different mode for the triangle distribution that effects this target
-	- Update the triangle distribution in this file: `open experiments/$COUNTRY/base_documents/multipliers.csv`
+	- Update the triangle distribution in this file: `open experiments/<country>/base_documents/multipliers.csv`
 
 
 ### Part #2: Age-Group Curve Calibration
@@ -59,20 +59,20 @@ We need to use multipliers to calibrate to these targets. There are two types:
 2. From Server: Run Calibration (~8-10 hours):
 
 	```
-	export COUNTRY=<country_name>
-	docker-compose run -d cervical_cancer bash -c "python3 src/curve_calibration.py experiments/$COUNTRY/"
+	export COUNTRY=<country>
+	docker-compose run -d cervical_cancer bash -c "python3 src/curve_calibration.py <country>"
 	```
 
 3. When finished, from Local: Copy `curve_multipliers.csv`. 
 
 	```
-	scp $USER@$SERVER.rtp.rti.org:/home/$USER/cervical-cancer-v2/experiments/$COUNTRY/base_documents/curve_multipliers.csv experiments/$COUNTRY/base_documents/
+	scp $USER@$SERVER.rtp.rti.org:/home/$USER/cervical-cancer-v2/experiments/<country>/base_documents/curve_multipliers.csv experiments/<country>/base_documents/
 	```
 
 4. From Local: Run to test these new multipliers:
 
 ```bash
-python src/check_targets.py experiments/$COUNTRY
+python src/check_targets.py <country>
 ```
 
 When complete, compare the analysis values with the targets as done in part 1. This is a subjective comparison. Small targets, such as `.2%` may have a value of `.4%` in the run (100% off). This is a large proportion difference, but actually quite close in relation to how small the target is. If targets all are "relatively" close, move on.
@@ -86,9 +86,9 @@ We want to check to see if a "normal" model has similar life expectancy to that 
 - India: [71.2](https://knoema.com/atlas/India/topics/Demographics/Age/Female-life-expectancy-at-birth) in 2020
 - USA: [81](https://www.ssa.gov/oact/STATS/table4c6.html) in 2016
 
-You can check this with: `open experiments/$COUNTRY/scenario_base/iteration_0/results.csv`
+You can check this with: `open experiments/<country>/scenario_base/iteration_0/results.csv`
 
-If the value is not within ~.5 a year, update the multiplier in `open experiments/$COUNTRY/base_documents/life_multiplier.csv` and rerun `src/check_targets.py`. This value can lower life expectancy (if value < 1) or raise life expectancy (if value is greater than 1). 
+If the value is not within ~.5 a year, update the multiplier in `open experiments/<country>/base_documents/life_multiplier.csv` and rerun `src/check_targets.py`. This value can lower life expectancy (if value < 1) or raise life expectancy (if value is greater than 1). 
 
 ### Part #3: HIV
 
@@ -106,31 +106,28 @@ Different components have different agent counts. Agent count determines how lon
 
 ## Run 2k Parameter Sets
 
-We have limited compute resources. 2k sets takes about 20 hours to complete on Baldur. 
-
-
 1. Remove old scenarios from server:
 
 	```
-	sudo rm -rf experiments/$COUNTRY/scenario*
+	sudo rm -rf experiments/<country>/scenario*
 	```
 
 2. Prepare scenarios on server (~1-2 minutes):
 
 	```
-	docker-compose run -d cervical_cancer bash -c "python3 src/prep_mass_runs.py experiments/$COUNTRY  --n=2000"
+	docker-compose run -d cervical_cancer bash -c "python3 src/prep_mass_runs.py <country>  --n=2000"
 	```
 
 3. Run scnearios on server (~24 hours):
 
 	```
-	docker-compose run -d cervical_cancer bash -c "python3 src/run_mass_runs.py experiments/$COUNTRY"
+	docker-compose run -d cervical_cancer bash -c "python3 src/run_mass_runs.py <country>"
 	```
 
 4. Collect results (from local):
 
 	```
-	sudo scp $USER@$SERVER.rtp.rti.org:/home/$USER/cervical-cancer-v2/experiments/$COUNTRY/{analysis_values.csv,analysis_output.csv,selected_multipliers.csv} experiments/$COUNTRY/base_documents/calibration/first_pass
+	sudo scp $USER@$SERVER.rtp.rti.org:/home/$USER/cervical-cancer-v2/experiments/<country>/{analysis_values.csv,analysis_output.csv,selected_multipliers.csv} experiments/<country>/base_documents/calibration/first_pass
 	```
 
 ## Collect Countries
@@ -141,13 +138,13 @@ After all countries are finished, you can collect their results with:
 python src/collect_countries.py
 ```
 
-This will place one file per country here: `<repo>/calibration_temp/`. You then need to manually add each country to the calibration file: `calibration_temp/calibration_comparison.xlsx`. Send this to Sujha. 
+This will place one file per country here: `<repo>/calibration_temp/`. You then need to manually add each country to the calibration file: `calibration_temp/calibration_comparison.xlsx`.
 
 
 
 ## Run Intervention Scenarios
 
-After parameter sets have been created for a country, you can now run intervention scenarios. Unless `--country=$COUNTRY` is used for a script, all 4 countries will be ran at one time.
+After parameter sets have been created for a country, you can now run intervention scenarios. Unless `--country=<country>` is used for a script, all 4 countries will be run at one time.
 
 1. Sync Files to Remote:
 
@@ -179,6 +176,12 @@ After parameter sets have been created for a country, you can now run interventi
 
 	```
 	docker-compose run cervical_cancer bash -c "python3 src/combine_batch.py batch_10"
+	```
+
+	or for a single country 
+
+	```
+	docker-compose run cervical_cancer bash -c "python3 src/combine_batch.py batch_10 --country=<country>"
 	```
 	
 6. Bring to local (from local main repo)
