@@ -1,4 +1,5 @@
 import multiprocessing
+import math
 from pathlib import Path
 
 import pandas as pd
@@ -27,17 +28,8 @@ def combine_age_groups(df, ages, target):
 def get_pool_count():
     """Return a reasonable CPU count to use
     """
-    # For Baldur
-    if multiprocessing.cpu_count() == 24:
-        pool_count = 21
-    # For Mallard (less ram)
-    elif multiprocessing.cpu_count() == 48:
-        pool_count = 18
-    # For personal laptop
-    elif multiprocessing.cpu_count() == 10:
-        pool_count = 8
-    else:
-        raise ValueError("Are you using this code on a server that is not cds-mallard or baldur?")
+    pool_count = math.floor(multiprocessing.cpu_count() * 0.85)
+
     return pool_count
 
 
